@@ -1,0 +1,637 @@
+/* ----------------Icon pack ----------------*/
+.icons-styles {padding:10px; border:1px solid #eee;}
+/*.choix {border-right:1px solid #eee;}*/
+.ico-stack1 {
+  	background: url('base/ico_stack1.png') no-repeat -7px -6px;
+	width: 272px;
+	height: 67px;
+	display: inline-block;
+	overflow: hidden;
+  @include hide-text;
+  }
+
+  .ico-stack1.Home {
+    background: url('base/ico_stack1.png') no-repeat -6px 0px;
+	width: 40px!important;
+	height: 40px!important;
+    &:hover {
+      background: url('base/ico_stack1.png') no-repeat -6px -39px;
+	  width: 40px;
+	  height: 40px;
+
+    }
+  }
+  .ico-stack1.Tools {
+    background: url('base/ico_stack1.png') no-repeat -59px 0px;
+	width: 40px;
+	height: 40px;
+    &:hover {
+      background: url('base/ico_stack1.png') no-repeat -59px -42px;
+	  width: 40px;
+	height: 40px;
+    }
+  }
+  .ico-stack1.Sitemap {
+    background: url('base/ico_stack1.png') no-repeat -108px 0;
+	width: 40px;
+	height: 40px;
+    &:hover {
+     background: url('base/ico_stack1.png') no-repeat -108px -42px;
+	 width: 40px;
+	height: 40px;
+    }
+  }
+  .ico-stack1.Help {
+    background: url('base/ico_stack1.png') no-repeat -157px 0;
+	width: 40px;
+	height: 40px;
+    &:hover {
+      background: url('base/ico_stack1.png') no-repeat -157px -42px;
+	  width: 40px;
+	height: 40px;
+    }
+  }
+  
+  .ico-stack1.Quit {
+    background: url('base/ico_stack1.png') no-repeat -205px 0;
+	width: 40px;
+	height: 40px;
+    &:hover {
+      background: url('base/ico_stack1.png') no-repeat -205px -40px;
+	 width: 40px;
+	height: 40px;
+    }
+  }
+  .ico-stack1.hamburg {
+    background: url('base/ico_stack1.png') no-repeat -254px -1px;
+	width: 40px;
+	height: 40px;
+    &:hover {
+      background: url('base/ico_stack1.png') no-repeat -254px -43px;
+	  width: 40px;
+		height: 40px;
+    }
+  }
+
+/************************* ICO STACK 2 *********************/
+ .ico-stack3 {
+  	background: url('base/ico_stack3.png') no-repeat -7px -6px;
+	width: 272px;
+	height: 67px;
+	display: inline-block;
+	overflow: hidden;
+  @include hide-text;
+  }
+
+  .ico-stack3.Home {
+    background: url('base/ico_stack3.png') no-repeat -6px 0px;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack3.png') no-repeat -6px -42px;
+	  width: 37px;
+	  height: 37px;
+
+    }
+  }
+  .ico-stack3.Tools {
+    background: url('base/ico_stack3.png') no-repeat -59px 0px;
+	width: 37px;
+	height: 37px;
+    &:hover {      background: url('base/ico_stack3.png') no-repeat -59px -42px;
+	  width: 37px;
+	height: 37px;
+    }
+  }
+  .ico-stack3.Sitemap {
+    background: url('base/ico_stack3.png') no-repeat -108px 0;
+	width: 36px;
+	height: 37px;
+    &:hover {
+     background: url('base/ico_stack3.png') no-repeat -108px -42px;
+	 width: 36px;
+	height: 37px;
+    }
+  }
+  .ico-stack3.Help {
+    background: url('base/ico_stack3.png') no-repeat -157px 0;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack3.png') no-repeat -157px -42px;
+	  width: 37px;
+	height: 37px;
+    }
+  }
+  
+  .ico-stack3.Quit {
+    background: url('base/ico_stack3.png') no-repeat -205px -1px;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack3.png') no-repeat -205px -43px;
+	 width: 37px;
+	height: 37px;
+    }
+  }
+  .ico-stack3.hamburg {
+    background: url('base/ico_stack3.png') no-repeat -254px -1px;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack3.png') no-repeat -254px -43px;
+	  width: 37px;
+		height: 37px;
+    }
+  }
+  
+ /********************* ICO STACK 3 ***********************************/ 
+  .ico-stack2 {
+  	background: url('base/ico_stack2.png') no-repeat -7px -6px;
+	width: 272px;
+	height: 67px;
+	display: inline-block;
+	overflow: hidden;
+  @include hide-text;
+  }
+
+  .ico-stack2.Home {
+    background: url('base/ico_stack2.png') no-repeat -6px 0px;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack2.png') no-repeat -6px -42px;
+	  width: 37px;
+	  height: 37px;
+
+    }
+  }
+  .ico-stack2.Tools {
+    background: url('base/ico_stack2.png') no-repeat -59px 0px;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack2.png') no-repeat -59px -42px;
+	  width: 37px;
+	height: 37px;
+    }
+  }
+  .ico-stack2.Sitemap {
+    background: url('base/ico_stack2.png') no-repeat -108px 0;
+	width: 36px;
+	height: 37px;
+    &:hover {
+     background: url('base/ico_stack2.png') no-repeat -108px -42px;
+	 width: 36px;
+	height: 37px;
+    }
+  }
+  .ico-stack2.Help {
+    background: url('base/ico_stack2.png') no-repeat -157px 0;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack2.png') no-repeat -157px -42px;
+	  width: 37px;
+	height: 37px;
+    }
+  }
+  
+  .ico-stack2.Quit {
+    background: url('base/ico_stack2.png') no-repeat -205px -1px;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack2.png') no-repeat -205px -43px;
+	 width: 37px;
+	height: 37px;
+    }
+  }
+  .ico-stack2.hamburg {
+    background: url('base/ico_stack2.png') no-repeat -254px -1px;
+	width: 37px;
+	height: 37px;
+    &:hover {
+      background: url('base/ico_stack2.png') no-repeat -254px -43px;
+	  width: 37px;
+		height: 37px;
+    }
+  }
+
+/* ----------------Circle bundle style 1----------------*/
+
+.circle-bundle-s1 {
+ 	background: url('base/Icons_style1.png') no-repeat;
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	overflow: hidden;
+  @include hide-text;
+  
+ 
+  /*---1---*/
+  
+  &.activity {
+    background: url('../theme/base/Icons_style1.png') no-repeat -2px 0;
+  }
+  &.goto {
+    background: url('base/Icons_style1.png') no-repeat -58px 0;
+  }
+  &.goback {
+    background: url('base/Icons_style1.png') no-repeat -113px 0;
+  }
+  &.warning {
+    background: url('base/Icons_style1.png') no-repeat -168px 0;
+  }
+  &.tip {
+    background: url('base/Icons_style1.png') no-repeat -223px 0;
+  }
+  &.timer {
+    background: url('base/Icons_style1.png') no-repeat -278px 0;
+  }
+  &.document {
+    background: url('base/Icons_style1.png') no-repeat -333px 0;
+  }
+  &.step {
+    background: url('base/Icons_style1.png') no-repeat -388px 0;
+  }
+  
+  /*---2---*/
+  
+  &.exam {
+    background: url('base/Icons_style1.png') no-repeat -2px -55px;
+  }
+  &.module {
+    background: url('base/Icons_style1.png') no-repeat -58px -54px;
+  }
+  &.graph {
+    background: url('base/Icons_style1.png') no-repeat -113px -54px;
+  }
+  &.image {
+    background: url('base/Icons_style1.png') no-repeat -168px -54px;
+  }
+  &.print {
+    background: url('base/Icons_style1.png') no-repeat -224px -54px;
+  }
+  &.info {
+    background: url('base/Icons_style1.png') no-repeat -278px -54px;
+  }
+   &.interaction {
+    background: url('base/Icons_style1.png') no-repeat -333px -54px;
+  }
+   &.link {
+    background: url('base/Icons_style1.png') no-repeat -388px -54px;
+  }
+  
+  /*---3---*/
+  
+  &.list {
+   background: url('base/Icons_style1.png') no-repeat -2px -110px;
+  }
+  &.goal {
+    background: url('base/Icons_style1.png') no-repeat -58px -110px;
+  }
+  &.resume {
+   	background: url('base/Icons_style1.png') no-repeat -114px -110px;
+  }
+  &.save {
+   	background: url('base/Icons_style1.png') no-repeat -168px -110px;
+  }
+  &.dyk {
+   	background: url('base/Icons_style1.png') no-repeat -224px -110px;
+  }
+  &.scenario {
+   background: url('base/Icons_style1.png') no-repeat -278px -110px;
+  }
+  &.clock {
+   	background: url('base/Icons_style1.png') no-repeat -333px -110px;
+  }
+  &.upload {
+   	background: url('base/Icons_style1.png') no-repeat -388px -110px;
+  }
+  
+   /*---4---*/
+   
+  &.video {
+   background: url('base/Icons_style1.png') no-repeat -2px -165px;
+  }
+  &.zoomIn {
+   background: url('base/Icons_style1.png') no-repeat -58px -165px;
+  }
+  &.zoomout {
+  	background: url('base/Icons_style1.png') no-repeat -114px -164px;
+  }
+  &.audioon {
+    background: url('base/Icons_style1.png') no-repeat -168px -165px;
+  }
+  &.audiooff {
+    background: url('base/Icons_style1.png') no-repeat -224px -165px;
+  }
+   &.musicon {
+    background: url('base/Icons_style1.png') no-repeat -278px -165px;
+  }
+  &.musicoff {
+    background: url('base/Icons_style1.png') no-repeat -333px -165px;
+  }
+   &.profile {
+    background: url('base/Icons_style1.png') no-repeat -388px -165px;
+  }
+  
+  /*---5---*/
+  
+  &.certficate {
+    background: url('base/Icons_style1.png') no-repeat -2px -220px;
+  }  
+  &.good {
+    background: url('base/Icons_style1.png') no-repeat -58px -220px;
+  }
+  &.wrong {
+   background: url('base/Icons_style1.png') no-repeat -114px -220px;
+  }
+  &.lock {
+   background: url('base/Icons_style1.png') no-repeat -168px -220px;
+  }
+  &.unlock {
+    background: url('base/Icons_style1.png') no-repeat -224px -220px;
+  }
+
+}
+
+
+/* ----------------Circle bundle style 2----------------*/
+
+.circle-bundle-s2 {
+ 	background: url('base/Icons_style2.png') no-repeat;
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	overflow: hidden;
+  @include hide-text;
+  
+  /*---1---*/
+  
+  &.activity {
+    background: url('base/Icons_style2.png') no-repeat -2px 0;
+  }
+  &.goto {
+    background: url('base/Icons_style2.png') no-repeat -58px 0;
+  }
+  &.goback {
+    background: url('base/Icons_style2.png') no-repeat -113px 0;
+  }
+  &.warning {
+    background: url('base/Icons_style2.png') no-repeat -168px 0;
+  }
+  &.tip {
+    background: url('base/Icons_style2.png') no-repeat -223px 0;
+  }
+  &.timer {
+    background: url('base/Icons_style2.png') no-repeat -278px 0;
+  }
+  &.document {
+    background: url('base/Icons_style2.png') no-repeat -333px 0;
+  }
+  &.step {
+    background: url('base/Icons_style2.png') no-repeat -388px 0;
+  }
+  
+  /*---2---*/
+  
+  &.exam {
+    background: url('base/Icons_style2.png') no-repeat -2px -55px;
+  }
+  &.module {
+    background: url('base/Icons_style2.png') no-repeat -58px -54px;
+  }
+  &.graph {
+    background: url('base/Icons_style2.png') no-repeat -113px -54px;
+  }
+  &.image {
+    background: url('base/Icons_style2.png') no-repeat -168px -54px;
+  }
+  &.print {
+    background: url('base/Icons_style2.png') no-repeat -224px -54px;
+  }
+  &.info {
+    background: url('base/Icons_style2.png') no-repeat -278px -54px;
+  }
+   &.interaction {
+    background: url('base/Icons_style2.png') no-repeat -333px -54px;
+  }
+   &.link {
+    background: url('base/Icons_style2.png') no-repeat -388px -54px;
+  }
+  
+  /*---3---*/
+  
+  &.list {
+   background: url('base/Icons_style2.png') no-repeat -2px -110px;
+  }
+  &.goal  {
+    background: url('base/Icons_style2.png') no-repeat -58px -110px;
+  }
+  &.resume {
+   	background: url('base/Icons_style2.png') no-repeat -114px -110px;
+  }
+  &.save {
+   	background: url('base/Icons_style2.png') no-repeat -168px -110px;
+  }
+  &.dyk {
+   	background: url('base/Icons_style2.png') no-repeat -224px -110px;
+  }
+  &.scenario {
+   background: url('base/Icons_style2.png') no-repeat -278px -110px;
+  }
+  &.clock {
+   	background: url('base/Icons_style2.png') no-repeat -333px -110px;
+  }
+  &.upload {
+   	background: url('base/Icons_style2.png') no-repeat -388px -110px;
+  }
+  
+   /*---4---*/
+   
+  &.video {
+   background: url('base/Icons_style2.png') no-repeat -2px -165px;
+  }
+  &.zoomIn {
+   background: url('base/Icons_style2.png') no-repeat -58px -165px;
+  }
+  &.zoomout {
+  	background: url('base/Icons_style2.png') no-repeat -114px -164px;
+  }
+  &.audioon {
+    background: url('base/Icons_style2.png') no-repeat -168px -165px;
+  }
+  &.audiooff {
+    background: url('base/Icons_style2.png') no-repeat -224px -165px;
+  }
+   &.musicon {
+    background: url('base/Icons_style2.png') no-repeat -278px -165px;
+  }
+  &.musicoff {
+    background: url('base/Icons_style2.png') no-repeat -333px -165px;
+  }
+   &.profile {
+    background: url('base/Icons_style2.png') no-repeat -388px -165px;
+  }
+  
+  /*---5---*/
+  
+  &.certficate {
+    background: url('base/Icons_style2.png') no-repeat -2px -220px;
+  }  
+  &.good {
+    background: url('base/Icons_style2.png') no-repeat -58px -220px;
+  }
+  &.wrong {
+   background: url('base/Icons_style2.png') no-repeat -114px -220px;
+  }
+  &.lock {
+   background: url('base/Icons_style2.png') no-repeat -168px -220px;
+  }
+  &.unlock {
+    background: url('base/Icons_style2.png') no-repeat -224px -220px;
+  }
+
+}
+
+
+
+/* ----------------Circle bundle style 3----------------*/
+
+.circle-bundle-s3 {
+ 	background: url('base/Icons_style3.png') no-repeat;
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	overflow: hidden;
+  @include hide-text;
+  
+  /*---1---*/
+  
+  &.activity {
+    background: url('base/Icons_style3.png') no-repeat -2px 0;
+  }
+  &.goto {
+    background: url('base/Icons_style3.png') no-repeat -58px 0;
+  }
+  &.goback {
+    background: url('base/Icons_style3.png') no-repeat -113px 0;
+  }
+  &.warning {
+    background: url('base/Icons_style3.png') no-repeat -168px 0;
+  }
+  &.tip {
+    background: url('base/Icons_style3.png') no-repeat -223px 0;
+  }
+  &.timer {
+    background: url('base/Icons_style3.png') no-repeat -278px 0;
+  }
+  &.document {
+    background: url('base/Icons_style3.png') no-repeat -333px 0;
+  }
+  &.step {
+    background: url('base/Icons_style3.png') no-repeat -388px 0;
+  }
+  
+  /*---2---*/
+  
+  &.exam {
+    background: url('base/Icons_style3.png') no-repeat -2px -55px;
+  }
+  &.module {
+    background: url('base/Icons_style3.png') no-repeat -58px -54px;
+  }
+  &.graph {
+    background: url('base/Icons_style3.png') no-repeat -113px -54px;
+  }
+  &.image {
+    background: url('base/Icons_style3.png') no-repeat -168px -54px;
+  }
+  &.print {
+    background: url('base/Icons_style3.png') no-repeat -224px -54px;
+  }
+  &.info {
+    background: url('base/Icons_style3.png') no-repeat -278px -54px;
+  }
+   &.interaction {
+    background: url('base/Icons_style3.png') no-repeat -333px -54px;
+  }
+   &.link {
+    background: url('base/Icons_style3.png') no-repeat -388px -54px;
+  }
+  
+  /*---3---*/
+  
+  &.list {
+   background: url('base/Icons_style3.png') no-repeat -2px -110px;
+  }
+  &.goal  {
+    background: url('base/Icons_style3.png') no-repeat -58px -110px;
+  }
+  &.resume {
+   	background: url('base/Icons_style3.png') no-repeat -114px -110px;
+  }
+  &.save {
+   	background: url('base/Icons_style3.png') no-repeat -168px -110px;
+  }
+  &.dyk {
+   	background: url('base/Icons_style3.png') no-repeat -224px -110px;
+  }
+  &.scenario {
+   background: url('base/Icons_style3.png') no-repeat -278px -110px;
+  }
+  &.clock {
+   	background: url('base/Icons_style3.png') no-repeat -333px -110px;
+  }
+  &.upload {
+   	background: url('base/Icons_style3.png') no-repeat -388px -110px;
+  }
+  
+   /*---4---*/
+   
+  &.video {
+   background: url('base/Icons_style3.png') no-repeat -2px -165px;
+  }
+  &.zoomIn {
+   background: url('base/Icons_style3.png') no-repeat -58px -165px;
+  }
+  &.zoomout {
+  	background: url('base/Icons_style3.png') no-repeat -114px -164px;
+  }
+  &.audioon {
+    background: url('base/Icons_style3.png') no-repeat -168px -165px;
+  }
+  &.audiooff {
+    background: url('base/Icons_style3.png') no-repeat -224px -165px;
+  }
+   &.musicon {
+    background: url('base/Icons_style3.png') no-repeat -278px -165px;
+  }
+  &.musicoff {
+    background: url('base/Icons_style3.png') no-repeat -333px -165px;
+  }
+   &.profile {
+    background: url('base/Icons_style3.png') no-repeat -388px -165px;
+  }
+  
+  /*---5---*/
+  
+  &.certficate {
+    background: url('base/Icons_style3.png') no-repeat -2px -220px;
+  }  
+  &.good {
+    background: url('base/Icons_style3.png') no-repeat -58px -220px;
+  }
+  &.wrong {
+   background: url('base/Icons_style3.png') no-repeat -114px -220px;
+  }
+  &.lock {
+   background: url('base/Icons_style3.png') no-repeat -168px -220px;
+  }
+  &.unlock {
+    background: url('base/Icons_style3.png') no-repeat -224px -220px;
+  }
+
+}

@@ -1,0 +1,55 @@
+//Header
+	header {
+		#wb-sttl{
+			a{
+		 		display:none;
+			}
+		
+		#wb-bar {
+			height:0!important;
+			background-color:none!important;
+			.top-menu {
+				padding: 1%!important;
+				#wb-lng.visible-md {
+						@extend %border-radius; 
+						position:relative;
+						top:10px;
+						}
+						
+						ul.text-right>li{
+										a{
+										background-color:rgba(61, 71, 105, 0.8); 	
+											
+										}
+										.lang{		
+											border-top-left-radius:5px;
+											border-bottom-left-radius:5px;
+										}
+										.quit{		
+											border-top-right-radius:5px;
+											border-bottom-right-radius:5px;
+										}
+						}
+				}
+				// Style The CSPS Framework
+				h2.series-title {
+								width:240px; 
+								height:80px;
+								float:left;
+								padding-top:1%;
+						a {
+							position:relative; width:240px; height:80px;
+						}
+				}
+			}
+	}
+}
+@media (max-width: 991px)
+{
+	#wb-bar {background-color:transparent!important;
+		.top-menu {
+			margin:auto;
+			width:100%;
+			}	
+		}
+}			

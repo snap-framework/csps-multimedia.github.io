@@ -1,0 +1,28 @@
+{
+    "courseLegacyCode":  "C000",
+	"courseTitle_en": 	 "Snap!",
+	"courseTitle_fr": 	 "Snap!",
+	"courseSubtitle_en": "",
+	"courseSubtitle_fr": "",
+	"seriesTitle_en": 	 "<img src='./theme/catalogue/icon_logo.png' width='100' title='Snap! Logo' />",
+	"seriesTitle_fr": 	 "<img src='./theme/catalogue/icon_logo.png' width='100' title='Snap! Logo' />",
+
+	"showLangSwitch": true,
+	"showHome": 	  true,
+	"showHelp": 	  true,
+	"showSitemap":	  true,
+	"showToolbox": 	  true,
+	"showFavorites":  false,
+	"showGlossary":   true,
+	"showResources":  true,
+	"showExit": 	  true,
+
+	"trackAllPages": true,
+	"triggerCompletionWhenAllPagesViewed": false,
+	
+	"googleAnalyticsID": "UA-101907595-11",
+	
+	"markModuleAsViewedOnLastPage": false,
+	"enableMicroLearning": false,
+	"enableTutorial": false
+} 

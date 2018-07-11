@@ -1,0 +1,206 @@
+//Taken from: https://github.com/digitaledgeit/sass-breakpoints
+
+$breakpoints: (
+  'xxsmall':	479px,
+  'xsmall':		480px,
+  'small': 		768px,
+  'medium': 	992px,
+  'large': 		1200px,
+  'xlarge': 	1600px,
+  'xxlarge':  1920px
+) !default;
+
+//
+// Usage:
+//  @include breakpoint(medium) {
+//    color: blue;
+//  }
+//
+
+/*----------------------- @MEDIA QUERIES-----------------------------------*/
+	
+	@include breakpoint(xxsmall) {
+    #mb-pnl {width:100%;}
+	.wb-panel-l, .wb-panel-r {max-width:100%;}
+	.breadcrumb {display:none!important;}
+    }
+	
+	@include breakpoint(small) {
+    #mb-pnl {width:100%;}
+	.wb-panel-l, .wb-panel-r {max-width:100%;}
+	.breadcrumb {display:none!important;}
+    }
+
+	@media (max-width: 767px) { 
+		.wb-tabs.cat-s3 figcaption {display:none;}
+		.wb-tabs.cat-s3 [role="tablist"] > li.prv a, .wb-tabs.cat-s3 [role="tablist"] > li.nxt a, .wb-tabs.cat-s3 [role="tablist"] > li.plypause a {display:inline-block;}
+		.wb-tabs.carousel-s2 [role="tablist"] li.prv a .glyphicon {
+			width:40px!important;
+			height:200px!important;
+			line-height:7!important;
+		}
+		.wb-tabs.carousel-s2 [role="tablist"] li.nxt a .glyphicon{
+			width:40px!important;
+			height:200px!important;
+			line-height:7!important;
+		}
+		.close {display:none!important;}
+		img{
+			max-width: 300px;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 992px) {
+		.wb-tabs.cat-s3.show-thumbs [role="tablist"] li[role="presentation"] {display:inline-block!important;}
+		.wb-tabs.carousel-s2 [role="tablist"] {top:3%!important; left:3%;}
+		.wb-tabs.carousel-s2 [role="tablist"] {top:0;}
+		.wb-tabs [role="tablist"] > li a {padding:0;}
+		.wb-tabs.cat-s3 figure {padding-top:20%;}
+		.wb-tabs.cat-s3 figcaption {display:none;}
+		.close {display:none!important;}
+	}
+
+	@media (max-width: 992px) {
+		main, .top-menu{
+			box-shadow: none!important;
+		}
+		h1{
+			font-size: 12px;
+			line-height: 2;
+		}
+		.wb-tabs.cat-s3.show-thumbs{
+			min-height: 270px;
+			
+			[role="tablist"]{
+				margin-top:200px;
+				margin-left: auto;
+				margin-right: auto;
+
+				li.control.nxt, li.control.prv{
+					padding: 0px;
+				}
+
+				li[role="presentation"] {
+					width: 32%;
+					float: left;
+					margin: 0px;
+					margin: auto;
+
+					img{
+						width: 100%!important;
+					}
+				}
+			}
+		}
+		.carte-3{
+			.col-md-3.col-sm-6{
+				margin-left: 0px!important;
+			}
+			
+			.mainportfolioindex{
+				margin: 15px 0px;
+			}
+		}
+		.carte-12{
+			.col-xs-3.gradient img{
+				height: 70px!important;
+				margin-top: 25px!important;
+				margin-bottom: 25px!important;
+			}
+		}
+		.col-xs-12.framevideo{
+			top:0px!important;
+			left: 0px!important;
+			margin-bottom: 20px!important;
+		}
+		.wb-tabs.carousel-s2 [role="tablist"] li.prv a .glyphicon {
+			width:40px!important;
+			height:200px!important;
+			line-height:7!important;
+		}
+		.wb-tabs.carousel-s2 [role="tablist"] li.nxt a .glyphicon{
+			width:40px!important;
+			height:200px!important;
+			line-height:7!important;
+		}
+		.captivate video{
+			width: 100%!important;
+		}
+	}
+
+/*----------------------- END @MEDIA QUERIES CAROUSEL-----------------------------------*/
+// BACKNEXT TOP MOBILE
+	@include breakpoint-lt(medium) 
+		{#topbacknext {
+		  .backnext {visibility:hidden!important;}
+			}
+
+			//LOGO
+			#wb-bar {height:0!important;}
+				//.top-menu h2.series-title{display:none!important;}
+				.top-menu
+					h2.series-title {
+						width:240px; 
+						height:80px; 
+						margin-top:60px;
+						a {
+							position:relative; 
+							width:240px; 
+							height:80px;
+							span.mot1 {font-family:$font-family-Gadugi;
+										color:$logo-color-sm;
+										font-size:$font-size-25;
+										position:absolute;
+										}
+							span.mot2 {font-family:$font-family-GadugiBold;
+										color:$logo-color-sm;
+										font-size:$font-size-70;
+										position:absolute;
+										top:20px;
+										}
+							span.mot3 {font-family:$font-family-Gadugi;
+										color:$logo-color-sm;
+										font-size:$font-size-25;
+										position:absolute;
+										top:33px;
+										left:115px;
+										border-top:3px solid black;
+										border-bottom:3px solid black;
+										}
+								}
+							}
+			//MODULE NAME
+			#wb-sttl {
+					#csps-modulename a {color: $footer-border-color-none;}
+					a {display:block!important;}
+			}
+			#wb-bar .top-menu > .row #wb-lng a:hover:not(.tb-item), header #topbacknext a:hover {background:blue!important;}
+			//BURGER
+			#wb-bar ul.text-right {
+				li a 	   {background-color:$supermenu-bg-background-color!important;}
+				li a:hover {background-color:$supermenu-bg-background-color-hover!important;}
+				}
+
+			//MODAL	
+			.overlay-def {
+				header {background-color:$supermenu-bg-background-color!important;}
+				}
+				//TOP MENU ELEMENTS
+				#mb-pnl {
+					.lng-ofr {
+						li {
+							a{
+								font-family:$font-family-GadugiBold; 
+								letter-spacing: $letter-spacing-md;
+							}
+						}
+					}
+				}
+			// FOOTER
+			footer {
+				.backnext {
+					span{padding:0!important; margin:0!important;}
+						}
+					}
+	}
+	

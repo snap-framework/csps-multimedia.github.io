@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.mod-index ul > li > a, #sitemap_pop > .modal-body ul > li > a {
+	border-radius :8px;
+	padding-left:7px;
+}
+
+
+
+ul.index-list > li > a.sitemap-page{
+	background:none;
+}
+
+.checkmark-viewed {
+	font-weight: normal;
+	display: inline-block;
+	border-radius :8px;
+	@include breakpoint-gt('xsmall') {	
+		color: $sitemap-checkmark-color;
+		background-color: $sitemap-checkmark-background-color;
+	}
+	@include breakpoint-gt('xsmall') {
+			float:none;
+			padding: 0px 4px;
+			margin-left:5px;
+		}
+		@include breakpoint-lte('xsmall') {
+			padding: 0px 0px;
+			//float: left;
+			margin-right:3px;
+		}
+		&:before {
+			content: '\2713';
+		}
+}

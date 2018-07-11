@@ -1,0 +1,258 @@
+//**************************************************************************//
+					//CATALOG - VARIABLES
+//************************************************************************//
+
+//-------------------------------TOP MENU-------------------------------//
+$top-menu-height: 60px;
+$mb-top-menu-height: 80px;
+
+//------------------------------SUPERMENU-----------------------------//
+$button-background-color-hover:#cad4ec;
+$mauve-fonce:#1d3a5a;
+$mauve-pale : #dee6ff;
+$transparent : transparent;
+
+//bg color supermenu
+$supermenu-bg-background-color:#c6c8ca;
+$supermenu-bg-background-color-hover:#cad4ec;
+
+/*#wb-sm .supermenu.menu > li > a.item{height:50px;}*/
+
+//bg color global
+$bg-color:$button-background-color-hover;
+$bg-color-hover:#273259;
+
+//bg opacity
+$bg-op-orange: rgba(153, 64, 48, 0.1);
+$bg-op-orange-2: rgba(153, 64, 48, 0.2);
+$bg-op-blue:rgba(39,50,80, 0.2);
+
+//-----------------------THE CSPS FRAMEWORK-------------------------//
+//LOGO
+$logo-color-md : white;
+$logo-color-sm : black;
+
+
+//--------------------------FOOTER---------------------------------//
+//FOOTER
+$footer-bg-background-color:$transparent;
+$footer-bg-background-color:$button-background-color-hover;
+$footer-bg-background-color-hover:#3d4769;
+$footer-border-color-none:transparent;
+
+//---------------------------FIGCAPTION-------------------------//
+//bg color figcaption
+$figcaption-bg-color:rgba(0,0,0,0.5);
+
+//-----------------------CATALOG BASICS-------------------------//
+//-----------------------BORDER--------------------------------//
+//Border
+$border-c-grey : #CCC;
+$border-layout-icons:0.2px solid #eee;
+
+
+//border index
+$border-top-index: 1px solid rgba(227,227,227,1);
+$border-bottom-index: 1px solid rgba(227,227,227,1);
+
+//-----------------------VISIBILITY-------------------------//
+//Visible
+$visibility-visible:visible;
+$visibility-hidden:hidden;
+
+//-----------------------HEIGHT----------------------------//
+//Minimum height
+$min-h-xs:100px;
+$min-h-sm:285px;
+
+
+//---------------------COLORS PALETTE--------------------//
+$G182-c1:#e2cd50;
+$G182-c2:#91c5bd;
+$G182-c3:#d84b46;
+$G182-c4:#a7826a;
+$G182-c5:#d36936;
+$G182-c6:#514f50;
+
+$G180-c1:#296b52;
+$G180-c2:#3b3f7f;
+
+$G110-c1:#b75118;
+$G110-c2:#464646;
+$G110-c3:#993a29;
+$G110-c4:#267b6f;
+$G110-c5:#697636;
+$G110-c6:#9b622e;
+
+$P930-c1:#af2f35;
+$P930-c2:#163867;
+
+$C218-c1:#318765;
+$C218-c2:#9cfc66;
+$C218-c3:#00ffdb;
+$C218-c4:#486a61;
+
+$S202-c1:#951c1f;
+$S202-c2:#e19e28;
+$S202-c3:#3e607c;
+
+$A230-c1:#255d60;
+$A230-c2:#eaf1f0;
+
+$I301-c1:#286373;
+$I301-c2:#e09f68;
+
+$m500-c1:#678842;
+$m500-c2:#a2b63b;
+$m500-c3:#1bb1bf;
+$m500-c4:#bae7eb;
+$m500-c5:#febf12;
+
+
+//---------- Global -----------//
+$error-color: #FF4136;
+$warning-color: #FF851B;
+$base-text-color: #222;
+$link-color: #295376;
+$link-color-visited: #7834bc;
+$box-shadox-color: #999;
+$button-default-color: #fff;
+$button-default-color-hover: #fff;
+$button-default-background-color: #3b3b3b;
+$button-default-background-color-hover: #4f4f4f;
+$button-default-border-color: #dcdee1;
+$button-default-border-color-hover: #bbbfc5;
+$box-shadow-color: #2f2f2f;
+$spinner-overlay-background-color: #fff;
+
+
+//---------- Modules ----------//
+
+//Progress-bar
+$progressBar-color: grey;
+$progressBar-border-color: grey;
+
+//Admin Mode
+$adminMode-background-color: white;
+$adminMode-border-color: #e1e1e1;
+
+//Favorites
+$favorites-background-color: #f9f9f9;
+$favorites-icon-color: #e6ddb7;
+$favorites-icon-shadow-color: #333;
+$favorites-icon-color-hover: #efce4a;
+$favorites-icon-color-focus: #295376;
+$favorites-icon-fav-added-color: #efce4a; 
+
+//Sitemap
+$sitemap-link-background-color: #f1f1f1;
+$sitemap-checkmark-color: #fff;
+$sitemap-checkmark-background-color: #3b3b3b;
+
+
+//---------- Widgets ----------//
+
+//Collapsible Box
+$collapsibleBox-background-color: #fafafa;
+$collapsibleBox-border-color: #aaa;
+$collapsibleBox-border-bottom-color: #666;
+$collapsibleBox-handle-color: #222;
+
+//Modal
+$modal-header-color: #fff;
+$modal-header-background-color: $button-background-color-hover;
+$modal-body-background-color: #fff;
+
+//Zoom
+$zoomin-focus-outline: #a6c8ff;
+
+//Tutorial
+$tutorial-background-color: rgba(0, 0, 0, 0.8);
+//Mouse-scroll
+$tutorial-mouse-container-background-color: #171717;
+$tutorial-mouse-background-color: #d7e059;
+$tutorial-mouse-cable-border-color: #d7e059;
+$tutorial-mouse-spacer-h-border-color: black;
+$tutorial-mouse-spacer-v-border-color: black;
+$tutorial-mouse-wheel-background-color: #111;
+
+//Cards
+$card-background-color: transparent;
+$card-background-color-hover: #d7e059;
+$card-border-color: #d7e059;
+$card-text-color: #d7e059;
+$card-text-color-hover: #3f4040;
+
+
+//---------- Layout ----------//
+
+//Footer
+$footer-button-color: #fff;
+$footer-button-color-mobile: #fff;
+$footer-button-background-color: $button-background-color-hover;
+$footer-button-color-hover: #fff;
+$footer-button-background-color-hover: $button-background-color-hover;
+$footer-text-color: $base-text-color;
+$footer-page-of-text-color: #fff;
+$footer-page-of-text-color-mobile: $base-text-color;
+$footer-container-background-color: $button-background-color-hover;
+$footer-button-border-color: #fff;
+$footer-button-color-disabled: #5b5b5b;
+$footer-button-background-color-disabled: #e6e6e6;
+$footer-mobile-button-background-color: $button-background-color-hover;
+
+//Header
+$header-background-color: $button-background-color-hover;
+$header-text-color: #fff;
+$header-banner-title-color: $button-background-color-hover;
+$header-module-name-color: $button-background-color-hover;
+$header-button-background-color: transparent;
+$header-button-color-hover: #fff;
+$header-button-background-color-hover: $button-background-color-hover;
+$header-button-color: #fff;
+//Top Navigation
+$top-nav-text-color: $base-text-color;
+$top-nav-button-color: $base-text-color;
+//mobile only
+$top-nav-button-color-mobile: #fff;
+$top-nav-button-background-color: #777;
+$hamburger-menu-color-mobile: #fff;
+
+//Toolbar
+$toolbox-link-color: $base-text-color;
+$toolbox-link-background-color: #fff;
+$toolbox-link-color-hover: #000;
+$toolbox-link-background-color-hover: $button-background-color-hover;
+
+//Supermenu
+$supermenu-button-color: #fff;
+$supermenu-button-background-color: $mauve-fonce;
+$supermenu-button-color-hover: #fff;
+$supermenu-button-background-color-hover: $mauve-fonce;
+$supermenu-dropdown-button-color: $base-text-color;
+$supermenu-dropdown-border-color: #000;
+$supermenu-dropdown-button-background-color: #fff;
+$supermenu-dropdown-button-color-hover: #000;
+$supermenu-dropdown-button-background-color-hover: $button-background-color-hover;
+//mobile only
+$supermenu-link-color: #333 ;
+
+//Scrollbar
+$scrollbar-track-background-color: #222;
+$scrollbar-thumb-background-color: #d7e059;
+
+
+//---------- Micro-learning ----------//
+
+$micro-body-background-color: #2f2f2f;
+$micro-footer-arrows-color: #d7df58;
+$micro-mobile-footer-arrows-color: #d7df58;
+$micro-module-info-button-color: #d7e059;
+$micro-vertical-spacers-lines-border-color: #d7e059;
+$micro-mobile-edges-background-color: #222;
+$micro-mobile-course-title-color: $micro-mobile-footer-arrows-color;
+
+//Micro-menu
+$micro-menu-toc-marker-background-color: #111;
+$micro-menu-mobile-bullet-list-item-border-color: #d7e059;
+$micro-menu-mobile-bullet-list-item-border-color-active: #d7e059;

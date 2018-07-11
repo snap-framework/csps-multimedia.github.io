@@ -1,0 +1,36 @@
+//Footer
+	
+	footer { margin:0!important;
+		.container {
+			display:none!important;
+			}
+			//Navigation
+			.backnext {
+				a {border:none!important;}
+				a.back {
+					background-color: $footer-bg-background-color; 
+					border:none;
+					}
+				a.next {background-color: $footer-bg-background-color;}
+				a.back:hover {background-color: $footer-bg-background-color-hover;}
+				a.next:hover {background-color: $footer-bg-background-color-hover;}
+			
+			span {
+					background-color:white;
+					padding:11px 20px 11px 20px;
+					margin:-5px!important;
+					color:black;
+					font-family: $font-family-GadugiBold;
+					@extend %box-shadow-inset;
+				}
+			
+			}
+		}
+		
+@media (min-width: 1200px){
+
+	footer.visible-lg {
+		display: none !important;
+	}
+
+}

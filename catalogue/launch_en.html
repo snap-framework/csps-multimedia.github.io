@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>CSPS Framework Launcher</title>
+	
+	<script src="./core/js/lib/require.js"></script>
+    
+    <script src="./core/js/scorm/APIWrapper.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		require(['core/js/require-configs'], function() {
+			require(['jquery', 'json!settings-general', 'popper/popupwindowscripts'], function($, GeneralSettings, PopupWindowScripts) {
+				$(document).ready(function(e) {
+					checkLaunch('index_en.html');
+					$("#coursename").html(GeneralSettings.courseTitle_en);
+					$("#subcoursename").html(GeneralSettings.courseSubtitle_en);
+				});
+			});
+		});
+    </script>
+    <style>
+    	/* ------------------ SPLASH FUNCTIONAL --------------*/
+
+		.obfuscated {
+		  display: none;
+		}
+
+		/* ------------------ SPLASH ELEMENTS --------------*/
+
+		#wordmark, #canada-logo {
+		  position: fixed;
+		  width: 98%;
+		  padding-left: 1%;
+		  padding-right: 1%;
+		  background-color: #fff;
+		}
+
+		#launch-placement > a {
+		  text-decoration: none;
+		  padding: 5px 15px;
+		  font-weight: 600;
+		}
+
+		#splash-content {
+		  font-size: 1.5em;
+		  text-align: center;
+		  width: 100%;
+		  position: absolute;
+		  top: 40%;
+		  -webkit-transform: translateY(-40%);
+		  transform: translateY(-40%);
+		}
+		#splash-content h1 { font-size: 1.5em; }
+
+		#manualpop {
+		  visibility: hidden;
+		  display: block;
+		  width: 1px;
+		  height: 1px;
+		  overflow: hidden;
+		}
+
+		#title-welcome {
+		  display: block;
+		}
+
+		#canada-logo {
+		  bottom: 0px;
+		  text-align: right;
+		  margin-bottom: 0px;
+		  padding-top: 10px;
+		}
+
+		#splash-content:before {
+		  background: none;
+		  border: none;
+		}
+
+		#wordmark {
+		  height: 30px;
+		}
+    </style>
+</head>
+<body class="launchpage">
+
+	<span id="noclose" class="obfuscated">Do not close this window. If you close it you will end your session.</span>
+    <header id="wordmark"><img src="./WET/assets/CSPS_FIP_BlackRed_E.png" alt="Canada School of Public Service Wordmark" /></header>
+	<main id="splash-content">
+    	
+        <h1 id="title-area">
+        	<span id="title-welcome">Welcome to</span>
+            <span id="coursename">The CSPS eLearning Framework</span>
+            <span id="subcoursename"></span>
+        </h1>
+        <div id="launch-area">
+        	<div id="launch-placement">
+            	<span id="manualpop">If the course did not start automatically, click </span>
+                <a href="#" onclick="launchPop('index_en.html')" id="launch-btn">Launch</a>
+        	</div>
+        </div>
+    </main>
+    <footer id="canada-logo"><img src="./WET/assets/canada_flag.png" alt="Canada Logo" /></footer>
+
+</body>
+</html>

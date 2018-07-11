@@ -1,0 +1,161 @@
+//-------------------FONT-FAMILY-------------------//
+@font-face {
+	font-family: 'Wisdom';
+	src: url('Fonts/Wisdom/Wisdom-Script.eot');
+	src: url('Fonts/Wisdom/Wisdom-Script.eot?#iefix') format('embedded-opentype'),
+		 url('Fonts/Wisdom/Wisdom-Script.woff') format('woff'),
+		 url('Fonts/Wisdom/Wisdom-Script.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+  font-family: 'Gadugi';
+  src: url('Fonts/Gadugi/Gadugi.eot');
+	src: url('Fonts/Gadugi/Gadugi.eot?#iefix') format('embedded-opentype'),
+		 url('Fonts/Gadugi/Gadugi.woff') format('woff'),
+		 url('Fonts/Gadugi/Gadugi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gadugi-Bold';
+  src: url('Fonts/GadugiBold/Gadugi-Bold.eot');
+	src: url('Fonts/GadugiBold/Gadugi-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('Fonts/GadugiBold/Gadugi-Bold.woff') format('woff'),
+		 url('Fonts/GadugiBold/Gadugi-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//-----------------FONT FAMILIY, DISPLAY ------------//
+//Text config
+$font-family-GadugiBold: Gadugi-Bold, Arial, Helvetica, sans-serif;
+$font-family-wisdom: Wisdom, Arial, Helvetica, sans-serif;
+$font-family-Gadugi: Gadugi, Arial, Helvetica, sans-serif;;
+
+//Spacing
+$letter-spacing-sm:0.3px;
+$letter-spacing-md:1px;
+
+//Placement
+$text-center:center;
+//-------------------FONT-SIZE-------------------//
+$font-size-15:15px;
+$font-size-16:16px;
+$font-size-17:17px;
+$font-size-18:18px;
+$font-size-23:23px;
+$font-size-25:25px;
+$font-size-30:30px;
+$font-size-35:35px;
+$font-size-40:40px;
+$font-size-45:45px;
+$font-size-50:50px;
+$font-size-70:70px;
+
+//Global titles
+/*h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {font-weight:500;}*/
+h1 {
+	font-size:$font-size-15;
+	font-family: $font-family-GadugiBold!important;
+	text-transform:uppercase;
+	line-height:0.1;
+	/*margin-top:5%;*/
+}
+
+
+h2 {
+	text-align:center;
+	font-size:1.2em;
+	text-transform:uppercase;
+}
+
+h2 a{
+	text-decoration:none!important;
+	line-height:1.5;
+}
+
+h2 a:hover{
+	transition:ease-in 0.1s !important;
+	color:#333;
+	border-bottom:1px solid;
+}
+
+h2.m0-x-menu a span.mod-name, h2.m0-x-menu a span.mod-name-sec{
+	  font-family:$font-family-Gadugi!important; 
+	  color:$color-grey;
+	  font-size:$font-size-18;
+	  /*border-bottom:2px solid;*/
+	  text-decoration:none!important;
+	  text-transform:uppercase;
+}
+		  
+h2.m0-x-menu a span.mod-name-sec {
+	font-weight:100;
+	
+}
+
+
+//Span
+span.top-title {
+	font-family:$font-family-GadugiBold;
+	letter-spacing:$letter-spacing-sm;
+	font-size:$font-size-15;
+	color: #7083a2;
+	margin-top:2em!important;
+	padding:5px;
+	
+	margin-left: 15px;
+	border-left: 3px solid #7083a2;
+	border-right: 3px solid #7083a2;
+	
+	/*border-radius:5px;
+	
+	&.m1{
+		background-color:$color-grey;
+	}
+	&.m1{
+		background-color:$m1-accent;
+	}
+	&.m2{
+		background-color:$m2-accent;
+	}
+	&.m3{
+		background-color:$m3-accent;
+	}
+	&.m4{
+		background-color:$m4-accent;
+	}*/
+}
+
+//Global h3
+h3 {
+	/*text-align:right;*/
+	font-family:$font-family-GadugiBold;
+	letter-spacing:$letter-spacing-sm;
+	}
+
+span.mot1 { 
+		  font-family:$font-family-Gadugi;
+		  color:$logo-color-md;
+		  font-size:$font-size-25;
+		  position:absolute;
+}
+span.mot2 { 
+		  font-family:$font-family-GadugiBold;
+		  color:$logo-color-md;
+		  font-size:$font-size-70;
+		  position:absolute;
+		  top:20px;
+ }
+span.mot3 { 
+		  font-family:$font-family-Gadugi;
+		  color:$logo-color-md;
+		  font-size:$font-size-25;
+		  position:absolute;
+		  top:33px;
+		  left:115px;
+		  border-top:3px solid white;
+		  border-bottom:3px solid white;
+}

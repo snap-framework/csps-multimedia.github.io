@@ -1,0 +1,241 @@
+/*m0*/
+
+/*
+.testv3 .mod-name, .testv3 .mod-name-sec{
+    font-family: Gadugi, Arial, Helvetica, sans-serif !important;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+.testv3 .mod-name-sec{
+    font-weight: 100;
+}
+.testv3 .haut{
+    text-align: center;
+    margin-bottom: -60px;       
+}
+
+.testv3 .quickfix{
+    margin-top: -10px; 
+       
+}
+
+.testv3 .milieu-gauche{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.testv3 .milieu-droit{
+     display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+
+.testv3 .bas{
+    margin-top: -65px;
+    margin-bottom: -55px;
+}
+.testv3 button{
+    text-decoration: none;
+    border: none;
+    width: 175px;
+    height: 175px;
+    margin: 5px;
+    text-decoration: none;
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    background-color: transparent;
+    z-index: 300;
+
+}
+
+.testv3 button .text-turn{
+    transform: rotate(-45deg);
+    border: none;
+}
+
+.testv3 button:hover, .testv3 button:focus, .testv3 button:active{
+    transform: scale(1.1);
+    background-color: rgba(137, 137, 137, 0.3);
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+.testv3 button:hover .text-turn, .testv3 button:focus .text-turn, .testv3 button:active .text-turn{
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+.testv3 .croixmenu{
+    background-image: url(../content/medias/images/GRE_croix.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin-bottom: 20px;
+    margin-top: 55px;
+    height: 415px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.testv3 .m0-x-menu{
+    max-width: 175px;
+    height: 175px;
+    margin: 0 auto;
+    text-decoration: none;
+    transform: rotate(45deg);
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    background-color: transparent;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*m3-0*/
+
+.testv2 .mainportfolioindex{
+    border: 2px solid #c8c8c8;
+    border-radius: 10px;
+}
+
+.testv2 .col-md-6{
+    margin-top: 25px;
+}
+
+.testv2 img{
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+
+}
+
+.testv2 .mod-details{
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.testv2 .mod-details p{
+    text-align: justify;
+}
+
+.testv2 .mod-details h2{
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #333;
+}
+
+.testv2 button{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #003170;
+    border: none;
+    color: #ffffff;
+    border: 1px solid #003170;
+
+
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+.testv2 button:hover, .testv2 button:focus, .testv2 button:active{
+    background-color: #f8f8f8;
+    border: 1px solid #003170;
+    color: #003170;
+
+    -ms-transform: scale(0.95); /* IE 9 */
+    -webkit-transform: scale(0.95); /* Safari 3-8 */
+    transform: scale(0.95);
+
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+.testv3 .mainportfolioindex{
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    text-decoration: none;
+
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+
+    /*CSPS-TD*/
+    -webkit-box-shadow: 0 0 12px 0 #c8c8c8;
+    box-shadow: 0 0 12px 0 #c8c8c8;
+}
+
+.testv3 .col-md-6{
+    margin-top: 25px;
+}
+
+.testv3 img{
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+
+}
+
+.testv3 .mod-details{
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.testv3 .mod-details p{
+    text-align: justify;
+}
+
+.testv3 .mod-details h2{
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #333;
+}
+
+.testv3 a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.testv3 .mainportfolioindex:hover, .testv3 .mainportfolioindex:focus, .testv3 .mainportfolioindex:active{
+
+    -ms-transform: scale(0.95); /* IE 9 */
+    -webkit-transform: scale(0.95); /* Safari 3-8 */
+    transform: scale(0.95);
+
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+
+    /*CSPS-TD*/
+    -webkit-box-shadow: 0 0 0 0 #c8c8c8;
+    box-shadow: 0 0 0 0 #c8c8c8;
+}
