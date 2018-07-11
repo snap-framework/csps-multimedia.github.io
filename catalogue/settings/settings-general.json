@@ -10,7 +10,7 @@
 	"showLangSwitch": true,
 	"showHome": 	  true,
 	"showHelp": 	  true,
-	"showSitemap":	  true,
+	"showSitemap":	  false,
 	"showToolbox": 	  true,
 	"showFavorites":  false,
 	"showGlossary":   true,
